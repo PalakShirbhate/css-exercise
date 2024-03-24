@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Columns Layout</title>
+    <style>
+        .page {
+            display: flex;
+            width: 100%;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .left-column {
+            background-color: lightblue;
+        }
+
+        .right-column {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="column left-column">
+            <h2>Bestselling Books on Amazon Kindle Store</h2>
+            <ul>
+             <li> It Ends with Us: A Novel </li> 
+             <li> Where the Crawdads Sing: Reese's Book Club </li>
+             <li> A Nation of Idiots </li>
+             <li> Three Hours: The Top Ten Sunday Times Bestseller </li>
+             <li> The Forgotten Daughter </li>
+            </ul>
+        </div>
+        <div class="column right-column">
+            <h2>Favorite Celebrities</h2>
+            <ul>
+                <li> Salman Khan </li>
+                <li> Akshay Kumar </li>
+                <li> Varun Dhawan </li>
+                <li> Saif-Ali Khan </li>
+                <li> Hritik Roshan </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
